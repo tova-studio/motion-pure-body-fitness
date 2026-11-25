@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en-NZ">
+<head><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; img-src * data: blob:; media-src data:; connect-src 'none'; form-action 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motion – Pure Body Fitness | Personal Training &amp; Massage, Templeton, Christchurch</title>
+<meta name="description" content="Motion – pure body fitness, 17 Bicknor Street, Templeton, Christchurch. Personal training, massage, lymphatic drainage and injury rehabilitation. Call 03 344 1100 or contact Tanya.">
+<meta name="theme-color" content="#000000">
+<link rel="canonical" href="http://www.bodymotion.co.nz/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Motion – Pure Body Fitness">
+<meta property="og:title" content="Motion – Pure Body Fitness | Templeton, Christchurch">
+<meta property="og:description" content="Personal training, massage, lymphatic drainage and injury rehabilitation at 17 Bicknor Street, Templeton, Christchurch.">
+<meta property="og:url" content="http://www.bodymotion.co.nz/">
+<meta property="og:image" content="http://www.bodymotion.co.nz/assets/logo.jpg">
+<meta property="og:image:alt" content="Motion – pure body fitness logo">
+<meta property="og:locale" content="en_NZ">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Questrial&display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "MOTION – Pure Body Fitness",
+  "url": "http://www.bodymotion.co.nz/",
+  "logo": "http://www.bodymotion.co.nz/assets/logo.jpg",
+  "image": "http://www.bodymotion.co.nz/assets/logo.jpg",
+  "telephone": ["+64 3 344 1100", "+64 21 971 973"],
+  "email": "tanya@bodymotion.co.nz",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "17 Bicknor Street",
+    "addressLocality": "Templeton, Christchurch",
+    "addressCountry": "NZ"
+  },
+  "sameAs": ["https://www.facebook.com/228847073754"]
+}
+</script>
+<style>
+:root{
+  --black:#000000;
+  --ink:#08090c;
+  --panel:#101318;
+  --panel-2:#141a22;
+  --line:rgba(255,255,255,.10);
+  --line-strong:rgba(255,255,255,.18);
+  --blue:#065793;
+  --blue-hover:#0768b2;
+  --blue-lt:#4fa9ee;
+  --white:#f5f6f7;
+  --text:#c3c7ce;
+  --muted:#9da4ae;
+  --serif:"Cormorant Garamond", Garamond, Georgia, "Times New Roman", serif;
+  --sans:"Questrial", "Century Gothic", CenturyGothic, "Avenir Next", "Segoe UI", sans-serif;
+  --wrap:1180px;
+  --header-h:76px;
+  --radius:4px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--ink);color:var(--text);
+  font-family:var(--sans);font-size:1.0625rem;line-height:1.7;
+  overflow-x:hidden;-webkit-font-smoothing:antialiased;
+}
+img,svg{display:block;max-width:100%}
+a{color:var(--blue-lt);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:#85c4f5}
+:focus-visible{outline:2px solid #85c4f5;outline-offset:3px;border-radius:2px}
+h1,h2,h3{font-family:var(--serif);color:var(--white);font-weight:500;line-height:1.12;margin:0}
+p{margin:0 0 1.1em}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 clamp(1.25rem,4vw,2.5rem)}
+section[id]{scroll-margin-top:calc(var(--header-h) + 8px)}
+
+.skip{position:absolute;left:1rem;top:-100px;z-index:100;background:var(--white);color:#000000;padding:.75rem 1.25rem;border-radius:var(--radius);text-decoration:none;font-weight:600}
+.skip:focus{top:1rem}
+
+/* Buttons */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.6rem;
+  min-height:48px;padding:.75rem 1.6rem;border-radius:var(--radius);
+  font-family:var(--sans);font-size:.95rem;letter-spacing:.08em;text-transform:uppercase;
+  text-decoration:none;border:1px solid transparent;cursor:pointer;
+  transition:background-color .2s ease,border-color .2s ease,color .2s ease;
+}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-primary{background:var(--blue);color:#ffffff;border-color:var(--blue)}
+.btn-primary:hover{background:var(--blue-hover);border-color:var(--blue-hover);color:#ffffff}
+.btn-ghost{background:rgba(0,0,0,.55);color:var(--white);border-color:var(--line-strong)}
+.btn-ghost:hover{border-color:var(--blue-lt);color:#ffffff}
+
+/* Header */
+.site-header{
+  position:sticky;top:0;z-index:50;background:var(--black);
+  border-bottom:1px solid var(--line);transition:box-shadow .3s ease;
+}
+.site-header.is-scrolled{box-shadow:0 8px 30px rgba(0,0,0,.6)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;min-height:var(--header-h)}
+.brand{display:inline-flex;align-items:center;min-height:44px;flex:none}
+.brand img{height:56px;width:auto}
+.site-nav ul{list-style:none;margin:0;padding:0;display:flex;align-items:center;gap:.25rem}
+.site-nav a.nav-link{
+  display:inline-flex;align-items:center;min-height:44px;padding:0 1rem;
+  color:var(--text);text-decoration:none;font-size:.9rem;letter-spacing:.14em;text-transform:uppercase;
+  position:relative;
+}
+.site-nav a.nav-link::after{
+  content:"";position:absolute;left:1rem;right:1rem;bottom:8px;height:1px;background:var(--blue-lt);
+  transform:scaleX(0);transform-origin:left;transition:transform .25s ease;
+}
+.site-nav a.nav-link:hover{color:var(--white)}
+.site-nav a.nav-link:hover::after{transform:scaleX(1)}
+.nav-cta{margin-left:1rem}
+.nav-cta .btn{min-height:44px;padding:.6rem 1.2rem;font-size:.85rem}
+.nav-toggle{
+  display:none;width:48px;height:48px;align-items:center;justify-content:center;
+  background:transparent;border:1px solid var(--line-strong);border-radius:var(--radius);color:var(--white);cursor:pointer;
+}
+.nav-toggle span{display:block;width:20px;height:1.5px;background:currentColor;position:relative;transition:background-color .2s}
+.nav-toggle span::before,.nav-toggle span::after{content:"";position:absolute;left:0;width:20px;height:1.5px;background:currentColor;transition:transform .25s ease}
+.nav-toggle span::before{top:-6px}
+.nav-toggle span::after{top:6px}
+.nav-toggle[aria-expanded="true"] span{background:transparent}
+.nav-toggle[aria-expanded="true"] span::before{transform:translateY(6px) rotate(45deg)}
+.nav-toggle[aria-expanded="true"] span::after{transform:translateY(-6px) rotate(-45deg)}
+
+@media (max-width:900px){
+  :root{--header-h:68px}
+  .brand img{height:48px}
+  .nav-toggle{display:inline-flex}
+  .site-nav{position:absolute;left:0;right:0;top:100%;background:var(--black);border-bottom:1px solid var(--line)}
+  .js .site-nav{display:none}
+  .js .site-nav.is-open{display:block}
+  .site-nav ul{flex-direction:column;align-items:stretch;padding:.5rem clamp(1.25rem,4vw,2.5rem) 1.5rem;gap:0}
+  .site-nav li{border-bottom:1px solid var(--line)}
+  .site-nav li.nav-cta{border-bottom:0;margin:1.25rem 0 0}
+  .site-nav a.nav-link{display:flex;min-height:52px;padding:0}
+  .site-nav a.nav-link::after{display:none}
+  .nav-cta .btn{width:100%;min-height:50px}
+}
+
+/* Hero */
+.hero{position:relative;background:var(--black);overflow:hidden;isolation:isolate}
+.hero-lines{
+  position:absolute;top:0;right:0;width:min(50%,720px);height:100%;z-index:-1;
+  -webkit-mask-image:linear-gradient(to right,transparent 0%,#000000 30%);
+          mask-image:linear-gradient(to right,transparent 0%,#000000 30%);
+}
+.hero-lines path{fill:none;vector-effect:non-scaling-stroke}
+.hero::after{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(ellipse at 15% 60%,rgba(6,87,147,.16),transparent 55%);
+}
+.hero-inner{position:relative;padding:clamp(4.5rem,11vw,9rem) 0 clamp(4rem,9vw,7.5rem);max-width:640px}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:.9rem;margin:0 0 1.5rem;
+  font-family:var(--sans);font-size:.8rem;letter-spacing:.24em;text-transform:uppercase;color:var(--blue-lt);
+}
+.eyebrow::before{content:"";width:36px;height:1px;background:currentColor}
+.hero h1{font-size:clamp(2.45rem,1.4rem + 4.4vw,4.75rem);letter-spacing:-.005em;margin-bottom:1.5rem}
+.hero h1 em{font-style:italic;color:#d4e8f9}
+.hero .lead{font-size:clamp(1.05rem,1rem + .35vw,1.25rem);color:var(--text);max-width:580px;margin-bottom:2.25rem}
+.hero-actions{display:flex;flex-wrap:wrap;gap:.9rem}
+.hero-inner > *{animation:rise .9s ease both}
+.hero-inner > *:nth-child(2){animation-delay:.08s}
+.hero-inner > *:nth-child(3){animation-delay:.16s}
+.hero-inner > *:nth-child(4){animation-delay:.24s}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@media (max-width:900px){
+  .hero-lines{width:70%;opacity:.6}
+}
+@media (max-width:640px){
+  .hero-lines{width:60%;height:55%;opacity:.5}
+  .hero-actions .btn{flex:1 1 100%}
+}
+
+/* Info strip */
+.strip{background:var(--panel);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.strip ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr)}
+.strip li{padding:1.4rem clamp(1rem,2.5vw,2rem);border-left:1px solid var(--line);min-width:0}
+.strip li:first-child{border-left:0;padding-left:0}
+.strip .label{display:block;font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.strip a{color:var(--white);text-decoration:none;display:inline-flex;align-items:center;min-height:44px;font-size:1.02rem;overflow-wrap:anywhere}
+.strip a:hover{color:var(--blue-lt)}
+@media (max-width:760px){
+  .strip ul{grid-template-columns:1fr}
+  .strip li{border-left:0;border-top:1px solid var(--line);padding:1rem 0}
+  .strip li:first-child{border-top:0}
+}
+
+/* Sections */
+.section{padding:clamp(4.5rem,9vw,7.5rem) 0}
+.section-dark{background:var(--black)}
+.section-head{max-width:680px;margin-bottom:clamp(2.5rem,5vw,3.75rem)}
+.section-head h2{font-size:clamp(2.1rem,1.5rem + 2.4vw,3.25rem);margin-bottom:1.1rem}
+.section-head .intro{color:var(--muted);font-size:1.08rem;margin:0}
+.section-head .eyebrow{margin-bottom:1.1rem}
+
+/* Services */
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:1.25rem}
+.service{
+  position:relative;background:linear-gradient(180deg,var(--panel-2),var(--panel));
+  border:1px solid var(--line);border-radius:var(--radius);
+  padding:2.25rem 1.75rem 2rem;box-shadow:0 1px 0 rgba(255,255,255,.04) inset,0 18px 40px -24px rgba(0,0,0,.8);
+  transition:border-color .25s ease,transform .25s ease;
+}
+.service::before{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:var(--blue);transform:scaleX(.18);transform-origin:left;transition:transform .35s ease}
+.service:hover{border-color:var(--line-strong);transform:translateY(-3px)}
+.service:hover::before{transform:scaleX(1)}
+.numeral{font-family:var(--serif);font-style:italic;font-size:1.35rem;color:var(--blue-lt);display:block;margin-bottom:1.25rem}
+.service h3{font-size:1.7rem;margin-bottom:.8rem}
+.service p{color:var(--muted);margin:0;font-size:1rem}
+.services-foot{margin-top:2.5rem;display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.5rem;color:var(--muted)}
+.services-foot p{margin:0}
+
+/* About */
+.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2.5rem,6vw,5.5rem);align-items:center}
+.about-copy p{font-size:1.08rem}
+.about-copy .section-head{margin-bottom:1.75rem}
+.about-copy .fb-link{display:inline-flex;align-items:center;min-height:44px;gap:.4rem}
+.statement{
+  margin:0;padding:clamp(2rem,4vw,3rem);background:var(--panel);border:1px solid var(--line);border-left:2px solid var(--blue);
+  border-radius:var(--radius);
+}
+.statement p{font-family:var(--serif);font-style:italic;font-size:clamp(1.45rem,1.15rem + 1.1vw,2rem);line-height:1.35;color:var(--white);margin:0 0 1.5rem}
+.statement .brandmark{display:flex;align-items:center;gap:1rem;color:var(--muted);font-size:.8rem;letter-spacing:.2em;text-transform:uppercase}
+.statement .brandmark::before{content:"";width:28px;height:1px;background:var(--blue-lt)}
+@media (max-width:860px){.about-grid{grid-template-columns:1fr}}
+
+/* Contact */
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:1.25rem}
+.contact-card{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:1.9rem 1.75rem;display:flex;flex-direction:column;gap:.35rem;min-width:0;
+}
+.contact-card .icon{width:44px;height:44px;border-radius:50%;border:1px solid rgba(79,169,238,.4);display:grid;place-items:center;color:var(--blue-lt);margin-bottom:1rem}
+.contact-card .icon svg{width:20px;height:20px}
+.contact-card h3{font-family:var(--sans);font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:400;margin-bottom:.35rem}
+.contact-card .big{font-family:var(--serif);font-size:1.6rem;color:var(--white);line-height:1.25;text-decoration:none;display:inline-flex;align-items:center;min-height:44px;overflow-wrap:anywhere}
+.contact-card .big.email{font-size:1.35rem}
+.contact-card a.big:hover{color:var(--blue-lt)}
+.contact-card .sub{color:var(--muted);margin:0;font-size:.98rem}
+.contact-card .serif-note{color:var(--white);font-family:var(--serif);font-size:1.45rem;line-height:1.3;margin:0}
+.contact-card .text-link{display:inline-flex;align-items:center;min-height:44px;gap:.4rem;font-size:.92rem;letter-spacing:.06em}
+.contact-card address{font-style:normal;color:var(--white);font-family:var(--serif);font-size:1.45rem;line-height:1.3}
+.contact-cta{
+  margin-top:clamp(2.5rem,5vw,3.5rem);padding:clamp(2rem,4vw,3rem);
+  border:1px solid var(--line);border-radius:var(--radius);
+  background:linear-gradient(120deg,rgba(6,87,147,.28),rgba(6,87,147,.06) 60%),var(--panel);
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1.5rem 2rem;
+}
+.contact-cta h3{font-size:clamp(1.7rem,1.3rem + 1.4vw,2.4rem)}
+.contact-cta p{margin:.5rem 0 0;color:var(--text)}
+.contact-cta .actions{display:flex;flex-wrap:wrap;gap:.9rem}
+@media (max-width:560px){.contact-cta .actions,.contact-cta .actions .btn{width:100%}}
+
+/* Footer */
+.site-footer{background:var(--black);border-top:1px solid var(--line);padding:3.5rem 0 2rem;color:var(--muted);font-size:.95rem}
+.footer-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:2rem}
+.footer-top img{height:64px;width:auto}
+.footer-nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:0 1.5rem}
+.footer-nav a,.footer-contact a{color:var(--text);text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
+.footer-nav a:hover,.footer-contact a:hover{color:var(--blue-lt)}
+.footer-contact{display:flex;flex-direction:column}
+.footer-contact span{display:inline-flex;align-items:center;min-height:44px}
+.footer-bottom{margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;gap:.75rem;font-size:.85rem;letter-spacing:.04em}
+.footer-bottom p{margin:0}
+
+.hero-lines .draw{stroke-dasharray:1600;stroke-dashoffset:1600;animation:draw 2.4s ease-out forwards}
+.hero-lines .draw:nth-child(2){animation-delay:.2s}
+.hero-lines .draw:nth-child(3){animation-delay:.4s}
+.hero-lines .draw:nth-child(4){animation-delay:.6s}
+@keyframes draw{to{stroke-dashoffset:0}}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition-duration:.01ms!important}
+  .hero-lines .draw{stroke-dasharray:none;stroke-dashoffset:0}
+  .service:hover{transform:none}
+}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"><style id="tova-look">:root{--serif:"Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;--sans:"Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;--radius:22px}h1,h2,h3{font-weight:700;letter-spacing:-.03em}a.btn,.btn,button,.button,[class*="btn-"]{border-radius:999px!important}[class*="card"],[class*="panel"],figure,.callout{border-radius:22px!important}</style></head>
+<body><div style="background:#1b2430;color:#fff;text-align:center;font:13px/1.4 system-ui,sans-serif;padding:8px 12px;position:relative;z-index:99999">Website concept prepared by TOVA Studios for MOTION  pure body fitness. This is a preview, not a live website.</div>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="Motion – pure body fitness, back to top">
+      <img src="assets/logo.jpg" width="263" height="110" alt="Motion - Pure Body Fitness">
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-cta"><a class="btn btn-primary" href="tel:+6433441100">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          03 344 1100</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <svg class="hero-lines" viewBox="0 0 700 600" preserveAspectRatio="xMaxYMid slice" aria-hidden="true" focusable="false">
+      <path class="draw" d="M40 640 C 220 360, 440 150, 740 90" stroke="#005797" stroke-width="2"/>
+      <path class="draw" d="M160 640 C 320 400, 520 230, 740 190" stroke="#1d7cc4" stroke-width="1.4"/>
+      <path class="draw" d="M100 620 C 300 300, 500 120, 730 30" stroke="#5f6670" stroke-width="1"/>
+      <path class="draw" d="M280 640 C 420 450, 580 330, 740 300" stroke="#005797" stroke-width="1.2"/>
+      <path d="M70 640 C 270 330, 480 150, 740 140" stroke="#e8edf2" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="0.5 9" opacity=".7"/>
+    </svg>
+    <div class="wrap">
+      <div class="hero-inner">
+        <p class="eyebrow">Templeton &middot; Christchurch</p>
+        <h1 id="hero-title">Personal training &amp; massage, <em>in motion.</em></h1>
+        <p class="lead">Motion – pure body fitness offers personal training, massage, lymphatic drainage and injury rehabilitation at 17&nbsp;Bicknor Street, Templeton, Christchurch.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:tanya@bodymotion.co.nz?subject=Enquiry%20from%20your%20website">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg>
+            Contact Tanya</a>
+          <a class="btn btn-ghost" href="tel:+6433441100">Call 03 344 1100</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="strip" role="region" aria-label="Quick contact details">
+    <div class="wrap">
+      <ul>
+        <li><span class="label">Phone</span><a href="tel:+6433441100">03 344 1100</a></li>
+        <li><span class="label">Mobile</span><a href="tel:+6421971973">021 971 973</a></li>
+        <li><span class="label">Find us</span><a href="https://www.google.com/maps/search/?api=1&amp;query=17%20Bicknor%20Street%2C%20Templeton%2C%20Christchurch" target="_blank" rel="noopener">17 Bicknor Street, Templeton</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="section" id="services" aria-labelledby="services-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Services</p>
+        <h2 id="services-title">Training and therapy for the whole body</h2>
+        <p class="intro">Four ways Motion can help you train, recover and keep your body working well.</p>
+      </div>
+      <div class="services-grid">
+        <article class="service">
+          <span class="numeral" aria-hidden="true">I.</span>
+          <h3>Personal Training</h3>
+          <p>Exercise and fitness for long-term health, keeping your body working well.</p>
+        </article>
+        <article class="service">
+          <span class="numeral" aria-hidden="true">II.</span>
+          <h3>Massage</h3>
+          <p>Hands-on massage to help you recover, whether you play sport or work at a desk.</p>
+        </article>
+        <article class="service">
+          <span class="numeral" aria-hidden="true">III.</span>
+          <h3>Lymphatic Drainage</h3>
+          <p>Manual lymphatic drainage, a gentle hands-on technique.</p>
+        </article>
+        <article class="service">
+          <span class="numeral" aria-hidden="true">IV.</span>
+          <h3>Injury Rehabilitation</h3>
+          <p>Help with getting back to the exercise and activities you enjoy after an injury.</p>
+        </article>
+      </div>
+      <div class="services-foot">
+        <p>Not sure which is right for you? Talk it through with Tanya.</p>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="about" aria-labelledby="about-title">
+    <div class="wrap about-grid">
+      <div class="about-copy">
+        <div class="section-head">
+          <p class="eyebrow">About Motion</p>
+          <h2 id="about-title">Pure body fitness in Templeton</h2>
+        </div>
+        <p>Motion brings personal training and hands-on therapy together under one name. The aim is to help people who exercise perform better, recover well and avoid injury.</p>
+        <p>You'll find us at 17&nbsp;Bicknor Street, Templeton, in Christchurch. For bookings and questions, contact Tanya directly by phone, mobile or email.</p>
+        <a class="fb-link" href="https://www.facebook.com/228847073754" target="_blank" rel="noopener">Follow Motion on Facebook <span aria-hidden="true">&rarr;</span></a>
+      </div>
+      <figure class="statement">
+        <p>Keeping fit for long-term health, and keeping the body working at its full potential.</p>
+        <figcaption class="brandmark">Motion &middot; pure body fitness</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">Contact Tanya</h2>
+        <p class="intro">Call, text or email to book or talk about what you need.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+          <h3>Phone</h3>
+          <a class="big" href="tel:+6433441100">03 344 1100</a>
+          <a class="big" href="tel:+6421971973">021 971 973</a>
+        </div>
+        <div class="contact-card">
+          <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></svg></span>
+          <h3>Email</h3>
+          <a class="big email" href="mailto:tanya@bodymotion.co.nz?subject=Enquiry%20from%20your%20website">tanya@bodymotion.co.nz</a>
+        </div>
+        <div class="contact-card">
+          <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+          <h3>Address</h3>
+          <address>17 Bicknor Street<br>Templeton, Christchurch</address>
+          <a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=17%20Bicknor%20Street%2C%20Templeton%2C%20Christchurch" target="_blank" rel="noopener">Open in Google Maps <span aria-hidden="true">&rarr;</span></a>
+        </div>
+        <div class="contact-card">
+          <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+          <h3>Hours</h3>
+          <p class="serif-note">Please call to discuss availability.</p>
+          <a class="text-link" href="tel:+6433441100">Call 03 344 1100 <span aria-hidden="true">&rarr;</span></a>
+        </div>
+        <div class="contact-card">
+          <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.6V21h2.9z"/></svg></span>
+          <h3>Social</h3>
+          <a class="big" href="https://www.facebook.com/228847073754" target="_blank" rel="noopener">Facebook</a>
+          <p class="sub">Follow Motion – pure body fitness on Facebook.</p>
+        </div>
+      </div>
+
+      <div class="contact-cta">
+        <div>
+          <h3>Ready to get started?</h3>
+          <p>Contact Tanya to book or ask a question.</p>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:tanya@bodymotion.co.nz?subject=Enquiry%20from%20your%20website">Email Tanya</a>
+          <a class="btn btn-ghost" href="tel:+6421971973">Call 021 971 973</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <a href="#top" class="brand" aria-label="Back to top">
+        <img src="assets/logo.jpg" width="263" height="110" alt="Motion - Pure Body Fitness" loading="lazy">
+      </a>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://www.facebook.com/228847073754" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <a href="tel:+6433441100">03 344 1100</a>
+        <a href="tel:+6421971973">021 971 973</a>
+        <a href="mailto:tanya@bodymotion.co.nz">tanya@bodymotion.co.nz</a>
+        <span>17 Bicknor Street, Templeton, Christchurch</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> MOTION – Pure Body Fitness</p>
+      <p>Website by TOVA Studios</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+
+  var header=document.querySelector('.site-header');
+  var toggle=document.querySelector('.nav-toggle');
+  var nav=document.getElementById('site-nav');
+
+  function setOpen(open){
+    toggle.setAttribute('aria-expanded',open?'true':'false');
+    toggle.setAttribute('aria-label',open?'Close menu':'Open menu');
+    nav.classList.toggle('is-open',open);
+  }
+  toggle.addEventListener('click',function(){
+    setOpen(toggle.getAttribute('aria-expanded')!=='true');
+  });
+  nav.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click',function(){setOpen(false);});
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&nav.classList.contains('is-open')){setOpen(false);toggle.focus();}
+  });
+  document.addEventListener('click',function(e){
+    if(nav.classList.contains('is-open')&&!header.contains(e.target)){setOpen(false);}
+  });
+  window.addEventListener('resize',function(){
+    if(window.innerWidth>900&&nav.classList.contains('is-open')){setOpen(false);}
+  });
+
+  function onScroll(){header.classList.toggle('is-scrolled',window.scrollY>8);}
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
+
+  var y=document.getElementById('year');
+  if(y){y.textContent=new Date().getFullYear();}
+})();
+</script>
+</body>
+</html>

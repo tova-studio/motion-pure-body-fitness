@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "source": "tova-explore",
+  "generatedAt": "2026-11-25T07:51:40.443Z",
+  "slug": "bodymotion",
+  "name": "MOTION  pure body fitness",
+  "city": "Christchurch",
+  "industry": {
+    "label": "Gyms & fitness studios",
+    "niche": "gyms & fitness studios",
+    "group": "Fitness & education"
+  },
+  "contact": {
+    "phone": "03 344 1100",
+    "email": "tanya@bodymotion.co.nz",
+    "address": "Templeton , Christchurch"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/228847073754"
+  },
+  "about": {},
+  "before": {
+    "url": "http://www.bodymotion.co.nz/",
+    "domain": "bodymotion.co.nz",
+    "finalUrl": "http://www.bodymotion.co.nz/",
+    "title": "Motion - Pure Body Fitness",
+    "pages": 2,
+    "score": 86,
+    "assessedAt": "2026-11-11T13:39:08.907Z",
+    "issues": [
+      {
+        "id": "no-viewport",
+        "title": "Not mobile-friendly",
+        "evidence": "The page has no responsive viewport tag, so phones show a shrunken desktop layout."
+      },
+      {
+        "id": "no-https",
+        "title": "Not served over HTTPS",
+        "evidence": "Final URL is http://www.bodymotion.co.nz/. Browsers label this site \"Not secure\"."
+      },
+      {
+        "id": "no-contact-path",
+        "title": "No easy way to get in touch",
+        "evidence": "No tap-to-call link and no enquiry form on the homepage."
+      },
+      {
+        "id": "slow",
+        "title": "Slow to respond",
+        "evidence": "Server took 8.0s to respond."
+      },
+      {
+        "id": "no-meta-desc",
+        "title": "No search description",
+        "evidence": "No meta description, so Google chooses random page text for search results."
+      },
+      {
+        "id": "no-schema",
+        "title": "No local-business search markup",
+        "evidence": "No structured data, so Google has less to show for the business."
+      }
+    ],
+    "screenshot": "screenshots/before-desktop.jpg"
+  },
+  "ours": {
+    "pagesUrl": "https://tova-studio.github.io/motion-pure-body-fitness/",
+    "repoUrl": "https://github.com/tova-studio/motion-pure-body-fitness",
+    "generator": "claude",
+    "screenshot": "screenshots/after-desktop.jpg",
+    "publishedAt": "2026-11-25T07:51:40.443Z"
+  }
+}
